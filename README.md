@@ -120,7 +120,7 @@ Sentry.setCaptureListener(new SentryEventCaptureListener() {
 
 ### Init with your base url
 ``` java
-Sentry.init(this, "http://your-base-url.com" "YOUR-SENTRY-DSN");
+Sentry.init(this, "http://your-base-url.com", "YOUR-SENTRY-DSN");
 
 ```
 
